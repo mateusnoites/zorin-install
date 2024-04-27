@@ -34,6 +34,8 @@ wget -O ~/Downloads/google-chrome.deb https://dl.google.com/linux/direct/google-
 sudo dpkg -i ~/Downloads/google-chrome.deb
 sudo apt install -f -y
 
+sudo apt install chrome-gnome-shell -y
+
 rm -rf ~/Downloads/.deb ~/Downloads/.tar.xz
 
 sudo apt autoremove -y
